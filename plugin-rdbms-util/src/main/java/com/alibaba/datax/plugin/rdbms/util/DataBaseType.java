@@ -144,6 +144,7 @@ public enum DataBaseType {
             case PostgreSQL:
             case KingbaseES:
             case Oscar:
+            case ClickHouse:
                 break;
             default:
                 throw DataXException.asDataXException(DBUtilErrorCode.UNSUPPORTED_TYPE, "unsupported database type.");
@@ -158,6 +159,7 @@ public enum DataBaseType {
 
         switch (this) {
             case MySql:
+            case ClickHouse:
                 result = "`" + columnName.replace("`", "``") + "`";
                 break;
             case Oracle:
@@ -182,6 +184,7 @@ public enum DataBaseType {
 
         switch (this) {
             case MySql:
+            case ClickHouse:
                 result = "`" + tableName.replace("`", "``") + "`";
                 break;
             case Oracle:
