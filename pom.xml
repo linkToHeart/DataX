@@ -54,8 +54,8 @@
         <module>kingbaseesreader</module>
         <module>oraclereader</module>
         <module>odpsreader</module>
-        <module>otsreader</module>
-        <module>otsstreamreader</module>
+<!--        <module>otsreader</module>-->
+<!--        <module>otsstreamreader</module>-->
         <module>txtfilereader</module>
         <module>hdfsreader</module>
         <module>streamreader</module>
@@ -80,7 +80,7 @@
         <module>ftpwriter</module>
         <module>hdfswriter</module>
         <module>streamwriter</module>
-        <module>otswriter</module>
+<!--        <module>otswriter</module>-->
         <module>oraclewriter</module>
         <module>sqlserverwriter</module>
         <module>postgresqlwriter</module>
